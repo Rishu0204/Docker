@@ -1,0 +1,21 @@
+DOCKERS INTRODUCTION
+
+
+What is Docker?
+	Docker is a container platform that allows user to devlop, test and build application. 
+
+Dockerfiles:	A developer defines all the applications and it's dependencies on a Dockerfile which is then used to build Docker images that defines a Docker container. This ensures that application will run in any environment.
+
+Docker Image:	Docker Image is an executable package of software that includes everything needed to run an application. A Docker Image is a file that defines a Docker Container. This image informs how a container should instantiate, determining which software components will run and how.
+
+Docker Container:	Docker Container is a virtual environment that bundles application code with all the dependencies required to run the application.
+
+Why use Docker?
+	Initially to run a application before a independent server was required, if we want to run another application we need another sever.
+	This is disadvantages in many ways, to solve this problem VMware created Virtual Machines.
+	Virtual Machine create a virtual environment to run several applictions on the same machine.
+	VMs are created using Hypervisors.
+	It divides the system resoureces such as os, storage, etc. for each application. No application knows what the other applicatoin doing.
+	Disadvantages with VM are that they split the system resources specially os which effects the appliction performance.
+	Solution to this problem is containers.  A container encapsulates an application with its own operating environment. It can be placed on any host machine without special configuration, removing the issue of dependencies. Containerization is a lightweight approach to virtualization.
+	https://th.bing.com/th/id/OIP.snINBI0HUIYa0BWKyCO3XgHaDv?w=325&h=177&c=7&r=0&o=5&dpr=1.1&pid=1.7
